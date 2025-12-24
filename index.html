@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Winter Wonderland!</title>
+
+    <style>
+      body {
+        background-color: #eef6ff;
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        color: #2c3e50;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+      }
+
+      h1 {
+        color: #4a6fdc;
+        background-color: #dbe9ff;
+        padding: 25px;
+        border-bottom: 4px solid #aac4ff;
+      }
+
+      .photo {
+        margin: 40px auto;
+      }
+
+      .photo img {
+        width: 90%;
+        max-width: 850px;
+        border: 3px solid #b3d9ff;
+        border-radius: 15px;
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+      }
+
+      .info {
+        background-color: #ffffff;
+        border: 4px dashed #a3c9f9;
+        border-radius: 25px;
+        width: 80%;
+        margin: 40px auto;
+        padding: 30px;
+      }
+
+      .info h2 {
+        color: #5fa8ff;
+        margin-top: 10px;
+      }
+
+      .info p {
+        font-size: 18px;
+        text-align: left;
+        margin: 12px 0;
+        padding-left: 20px;
+        line-height: 1.6;
+      }
+
+      .info img {
+        margin-top: 25px;
+        width: 80%;
+        max-width: 500px;
+        border-radius: 15px;
+        border: 2px solid #b3d9ff;
+      }
+
+      .end {
+        background-color: #dbe9ff;
+        color: #555;
+        padding: 18px;
+        font-size: 14px;
+        border-top: 3px solid #aac4ff;
+      }
+
+      .ainfo {
+        background-color: #ffffff;
+        border: 4px dashed #a3c9f9;
+        border-radius: 25px;
+        width: 80%;
+        margin: 40px auto;
+        padding: 30px;
+      }
+      
+
+
+      /* Snow layer */
+.snow {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  background-image:
+    radial-gradient(white 1.5px, transparent 1.5px),
+    radial-gradient(white 2px, transparent 2px),
+    radial-gradient(white 1px, transparent 1px);
+  background-size: 100px 100px, 150px 150px, 200px 200px;
+  animation: snowfall 15s linear infinite;
+  z-index: 999;
+}
+
+@keyframes snowfall {
+  0% {
+    background-position: 0 0, 0 0, 0 0;
+  }
+  100% {
+    background-position: 0 1000px, 0 800px, 0 600px;
+  }
+}
+
+    </style>
+  </head>
+
+  <body>
+
+   <h1>Winter Wonderland</h1>
+
+   <img src="/photo/ph my go.jpg">
+
+    <div class="info">
+      <h2>Why Winter Is So Magical</h2>
+      <p><b>Snow:</b> Soft white snow covers everything like a fluffy blanket.</p>
+      <p><b>Cold Air:</b> The air feels fresh, crisp, and clean.</p>
+      <p><b>Fun:</b> You can build snowmen, sled, and have snowball fights.</p>
+      <p><b>Cozy Time:</b> Warm drinks, blankets, and relaxing indoors.</p>
+      <p><b>Feeling:</b> Winter feels calm, peaceful, and magical.</p>
+
+      <h2>Fun Winter Activities</h2>
+      <p><b>Skiing:</b> A fun and exciting way to move quickly across the snow.</p>
+      <p><b>Making a Snowman:</b> Rolling snow into big balls and decorating them.</p>
+      <p><b>Ice Skating:</b> Gliding across the ice at rinks or frozen lakes.</p>
+      <p><b>Snow Angels & Footprints:</b> Creating shapes and discovering animal tracks.</p>
+
+      <img src="/photo/ssssssssssssssssssssssssssssssssssssssolsssssssssssss.webp" alt="Winter activity">
+    </div>
+
+    <div class="ainfo">
+      <h2>
+      Places to go during winter
+    </h2>
+    
+    <p><b>Kyoto, Japan:</b>The temples and bamboo forests provide a serene winter, snow dust and peacefulness.</p>
+    <p><b>Lapland, Finland: </b>Santa, reindeer, glass igloos, and Northern Lights.</p>
+    <p><b>Swiss Alps (Lucerne, Zermatt): </b>Alpine charm, fondue, winter sports, and stunning views.</p>
+    <p><b>Seoul, South Korea: </b>Festivals, unique winter experiences, and city exploration.</p>
+    <p><b>Southeast Asia (Thailand, Bali): </b> Classic warm destinations with beaches and culture.</p>
+    <p><b>Iceland:</b> Northern Lights, Blue Lagoon, ice caves, and Golden Circle tours.</p>
+    </div>
+
+
+    
+    <div class="end">
+      By chuchu ❄️
+    </div>
+
+    <div class="snow"></div>
+
+
+
+
+  </body>
+</html>
